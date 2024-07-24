@@ -454,7 +454,7 @@ ul {
   background-color: #31d0aa;
 }
 
-.subscribe-label {
+.subscribe-paragraph {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -493,11 +493,10 @@ ul {
   justify-content: center;
   align-items: center;
   border: none;
-  gap: 16px;
   max-height: fit-content;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   color: #fff;
   background-color: #4d5ae5;
@@ -516,5 +515,6 @@ ul {
 }
 
 .subscribe-button-icon {
+  margin-left: 16px;
   fill: #fff;
 }
