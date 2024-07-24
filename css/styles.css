@@ -454,26 +454,21 @@ ul {
   background-color: #31d0aa;
 }
 
-.subscribe-form {
-  display: flex;
-  align-items: flex-end;
-  gap: 24px;
-}
-
 .subscribe-label {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-#subscribe-input {
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form-input {
   background-color: inherit;
   width: 264px;
   height: 40px;
@@ -484,8 +479,8 @@ ul {
   outline: none;
 }
 
-#subscribe-input,
-#subscribe-input::placeholder {
+.subscribe-form-input,
+.subscribe-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -515,7 +510,8 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-button:hover {
+.subscribe-button:hover,
+.subscribe-button:focus {
   background-color: #404bbf;
 }
 
